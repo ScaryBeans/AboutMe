@@ -1,0 +1,222 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #eaeaea;
+    font-family: Verdana;
+}
+
+img{
+    border-radius: 100px;
+}
+
+a{
+    text-decoration: none;
+    color:#F7F7F7;
+}
+
+a:hover{
+    color:cornflowerblue;
+}
+
+#content{
+    width: 70%;
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 95%, rgba(220,220,220,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 95%,rgba(220,220,220,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 95%,rgba(220,220,220,1) 100%);
+    margin: 10px auto;
+    border: 1px solid #a0a0a0;
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px #cfcfcf;
+    padding-bottom: 1.5%;
+}
+
+li{
+    list-style: none;
+}
+
+#topNav{
+    display: flex;
+    background-color:#8443DF;
+    border-radius: 7px;
+    justify-content: space-evenly;
+    align-items:center;
+    height: 50px;
+}
+
+#mainContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10%;
+    padding-top: 9%;
+}
+
+#mainContent div{
+    width: 50%;
+    padding-left: 5%;
+}
+
+#mainContent div h3{
+    padding-bottom: 2%;
+}
+
+#mainContent div h1{
+    padding-bottom: 2%;
+}
+
+#mainContent div h4{
+    padding-bottom: 2%;
+}
+
+footer ul li ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul li a{
+    color:#a0a0a0;
+}
+
+footer ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul li p{
+    font-size: 0.9em;
+    color:#a0a0a0;
+    padding-bottom: 1%;
+}
+
+footer ul li ul li a{
+    padding-left: 25px;
+}
+
+footer ul li ul li a:hover{
+    color: #8443DF;
+}
+
+
+#whoAmI{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#whoAmI h2{
+    margin-bottom: 2%;
+    padding-bottom: 1%;
+    text-align: center;
+    border-bottom: 2.5px solid #8443DF;
+}
+
+#whoAmI div{
+    display: flex;
+    padding-bottom: 2%;
+}
+
+#whoAmI div p{
+    flex: 2;
+}
+
+#whoAmI div img{
+    flex: 1;
+}
+
+
+#portfolio{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#portfolio h2{
+    margin-bottom: 2%;
+    padding-bottom: 1%;
+    text-align: center;
+    border-bottom: 2.5px solid #8443DF;
+}
+
+#portfolio p{
+    padding-bottom: 2%;
+}
+
+
+.error{
+    display: none;
+    color: red;
+    text-align: right;
+}
+
+label{
+    clear: left;
+    text-align: left;
+    display: inline-block;
+	width:120px;
+}
+
+input, textarea{
+    width: 200px;
+}
+
+input{
+    text-align: right;
+}
+
+#contactMe{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+#contactMe ul li{
+    padding-bottom: 5%;
+}
+
+textarea{
+    width: 97.6%;
+}
+
+p.center{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+p.center button{
+    margin-left: 2%;
+}
+
+#title{
+    text-align: center;
+    padding-top: 30px;
+}
+
+button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}

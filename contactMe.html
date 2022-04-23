@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kyle Bailey</title>
+    <link rel="stylesheet" type="text/css"href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="content"> 
+        <ul id="topNav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutMe.html">About Me</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contactMe.html">Contact Me</a></li>
+        </ul>
+
+        <h3 id="title">Contact Me</h3>
+
+        <form method="post" action="index.html">
+            <div id="contactMe">
+                <ul>
+                    <li>
+                        <label for="fullname">Full Name:</label>
+                        <input id="fullname" name="fullname" type="text" />
+                        <p class="error" id="fullname_error">* Required field</p>
+                    </li>
+                    
+                    <li>
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Ex. 1234567890" />
+                        <p class="error" id="phone_error">* Required field</p>
+                        <p class="error" id="phoneformat_error">* Invalid phone number</p>
+                    </li>
+
+                    <li>
+                        <label for="email">Email:</label>
+                        <input id="email" name="email" type="text" placeholder="email@address.com"/>
+                        <p class="error" id="email_error">* Required field</p>
+                        <p class="error" id="emailformat_error">* Invalid email address</p>
+                    </li>
+
+                    <li>
+                        <label for="comments">Comments:</label>
+                    </li>
+
+                    <li>
+                        <textarea id="comments" name="comments" rows="5" maxlength="500"></textarea>
+                        <p class="error" id="comment_error">* Required field</p>
+                    </li>
+                </ul>
+            </div>
+        </form>
+
+        <p class="center">
+            <button type="submit" id="submit">Submit</button>
+            <button type="reset" id="clear">Reset</button>
+        </p>
+
+        <footer>
+            <ul>
+                <li><p>Designed by Kyle Bailey</p></li>
+                <li>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutMe.html">About Me</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contactMe.html">Contact Me</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
