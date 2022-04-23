@@ -17,7 +17,7 @@ time, mark, audio, video {
 }
 
 html{
-    background-color: #eaeaea;
+    background-color: #e0e0e0;
     font-family: Verdana;
 }
 
@@ -57,7 +57,12 @@ li{
     border-radius: 7px;
     justify-content: space-evenly;
     align-items:center;
-    height: 50px;
+    height: 60px;
+}
+
+#topNav li a{
+    font-size: 1.1em;
+    font-weight: bold;
 }
 
 #mainContent{
@@ -162,9 +167,18 @@ footer ul li ul li a:hover{
     padding-bottom: 2%;
 }
 
+#portfolio ul{
+    padding-left: 4%;
+}
+
+#portfolio ul li{
+    list-style: circle;
+    padding-bottom: 1%;
+}
+
 
 .error{
-    display: none;
+    display: block;
     color: red;
     text-align: right;
 }
